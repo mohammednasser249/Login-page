@@ -1,0 +1,118 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+
+}
+
+/*Styling */
+
+section{
+
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    min-width: 28rem;
+    max-width: 32rem;
+    border-radius: 0.5rem;
+    max-height: 70rem;
+    min-height: 35rem;
+    
+}
+
+.login-card{
+    width: 80%;
+    margin: auto;
+}
+
+input{
+    display: block;
+    border: none;
+    outline-style: none;
+    border-bottom: 0.15rem solid rgb(163, 163, 163);
+    padding: 0.5rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    height: 4rem;
+    padding: 0px 0.5rem;
+    font-size: 1.4rem;
+}
+
+input:hover{
+    border-bottom: 0.15rem solid #0093E9;
+}
+
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid silver;
+    margin-top: 1.2rem;
+
+
+}
+
+.Forgot-pass{
+    text-align: left;
+    margin-bottom: 2rem;
+    color: rgb(163, 163, 163);
+    font-size: 1.3rem;
+}
+
+.Forgot-pass:hover{
+   
+    color: rgb(88, 87, 87);
+   cursor: pointer;
+}
+
+
+.btn{
+    text-align: center;
+}
+
+.member{
+    text-align: center;
+}
+
+button{
+    background-color: #0086da;
+    color:white;
+    border: none;
+    padding: 0.5rem 7rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    
+}
+
+button:hover{
+    background-color: #005184;
+   cursor: pointer;
+    
+}
+
+
+
+.member{
+    margin-bottom: 2rem;
+}
+
+span{
+    color: #0086da;
+    cursor: pointer;
+}
